@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naša kafeterija</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"> <!--ovo je font popins - kopirano sa neta, ova 3 linka -->
+</head>
+
+<body>
+    <div class="menu">
+        <a class="menu-item">O nama</a>
+        <a class="menu-item">Proizvodi</a>
+        <a class="menu-item">Lokacija</a>
+        <a class="menu-item">Galerija</a>
+    </div> <!-- naslovna linija -->
+
+    <img src="images/shop.jpg" class="heading-img" /> <!--prva slika na sajtu-->
+
+    <div class="content-wrapper"> <!--veliki div, u njemu se nalazi svi elementi sa sajta, osim footer-a-->
+        <div class="about-us">
+            <div class="text">
+                <h2>O nama</h2>
+                <p>Ovo je naša kafeterija. Služimo razne napitke od kafe. Dođite u uvjerite se u naš kvalitet. Nalazimo
+                    se u Beogradskoj ulici br. 97. Radimo non stop. Sve vrste kafe iz Brazila, Indije, Arabije, Čilea...
+                </p>
+            </div> <!--ovaj div 'tekst' se odnosi samo na ovaj ispisani tekst gore-->
+            <img src="images/enterijer.jpg" class="shop-img" />
+        </div> <!--ovaj div 'o nama' se odnosi i na tekst i na sliku-->
+
+        <div class="products"> <!--ovaj div 'proizvodi' se nalazi ispod div-a 'o nama', i on u sebi sadrzi 4 diva 'card'-->
+            <div class="card"> <!--sadrzi sliku i tekst o toj slici-->
+                <img src="images/coffe.jpg" class="card-img">
+                <p class="card-text">Kafa: najkvalitetnija kafa u gradu. I miris i ukus.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/kroasan.jpg" class="card-img">
+                <p class="card-text">Kroasani: uvijek najsvježije pecivo u našoj kafeteriji. Uživajte u ukusu punjenih
+                    kroasana.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/frappe.jpg" class="card-img">
+                <p class="card-text">Frappe: Rashladite se uz naše hladne napitke. U ponudi više vrsta frappea.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/cake.jpg" class="card-img">
+                <p class="card-text">Kolači: razne vrste slatkih ukusa uz kafe napitke.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"> 
+        <div class="footer-element">
+            <p>Kafeterija Bijeljina</p>
+            <p>Beogradska ulica br. 97</p>
+            <p>Radno vrijeme: non-stop</p>
+            <p>Dostava: Glovo, Wolt</p>
+        </div>
+        <div class="footer-element">
+            <p>Kafeterija Bijeljina</p>
+            <p>Beogradska ulica br. 97</p>
+            <p>Radno vrijeme: non-stop</p>
+            <p>Dostava: Glovo, Wolt</p>
+        </div>
+        <div class="footer-element">
+            <p>Kafeterija Bijeljina</p>
+            <p>Beogradska ulica br. 97</p>
+            <p>Radno vrijeme: non-stop</p>
+            <p>Dostava: Glovo, Wolt</p>
+        </div>
+    </div>
+</body>
+
+</html>
